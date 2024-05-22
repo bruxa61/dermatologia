@@ -169,6 +169,37 @@ main{
     margin-top: 5%;
 }
 
+.fundo2 h1{
+    font-size: clamp(6%, 7vw, 8vh);
+    margin-left: 40%;
+    margin-right: 20%;
+    margin-top: -50%;
+    color: #E78B00;
+}
+
+.fundo2 p{
+    margin-left: 40%;
+    margin-right: 5.4%;
+    margin-top: 3%;
+    font-size: clamp(3.5%, 3vw, 4.3vh);
+    text-align: justify;
+}
+
+.fundo2 button{
+    border: none;
+    background-color: transparent;
+    color: black;
+    padding: 40px 50px;
+    border: 2px solid #66270E;
+    font-size: 2.4rem;
+    letter-spacing: 3px;
+    margin-left: 10%;
+    width: 25%;
+    cursor: pointer;
+    margin-top: 20%;
+    color: #66270E;
+}
+
 /* RODAPÉ */
 footer{
     background-color: #F9F2E7;

@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+
+body{
+    background-color: #ffffff;
+}
+
+/* HEADER */
+/* .container{
+    max-width: 100%;
+} */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    background-color: #A44A26;
+    box-shadow: 0.0vh 0.07vh 0.9vh ;
+}
+#barra{
+    height: 6vh;
+    border-left: 0.01px solid white;
+}
+
+.Perfilzinho{
+    margin-top: 1px;
+}
+
+nav .menu-icon{
+    cursor: pointer;
+    display: none;
+}
+
+nav .logo a{
+    font-size: clamp(7%, 6vw, 8vh);
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 10%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 1vh;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 5vh;
+    color: white;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-bottom: 0.3vh solid transparent;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+nav ul li a:hover{
+    transform: scale(1,2);
+    border-bottom: 0.3vh solid white;
+}
+
+.consultorio img{
+    width: 42%;
+    margin-top: 3.5%;
+}
+
+
+.consultorio{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#text-consul{
+    font-size: clamp(3.5%, 2.7vw, 7vh);
+    margin-left: 5.4%;
+    margin-right: 5.4%;
+    margin-top: 2%;
+    text-align: justify;
+}
+
+#titulo{
+    text-decoration: none;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: clamp(7%, 6vw, 10vh);
+    margin-top: 2.5%;
+    margin-left: 5.4%;
+    color: #E78B00;
+}
+
+.rosto img{
+    width: 42%;
+    margin-left: 5.4%;
+    margin-top: 4%;
+    display: inline-block;
+}
+
+.rosto h1{
+    font-size: clamp(6%, 7vw, 11vh);
+    margin-left: 50%;
+    margin-right: 8%;
+    margin-top: -63%;
+    color: #E78B00;
+}
+
+.rosto p{
+    margin-left: 50%;
+    margin-right: 5.4%;
+    margin-top: 3%;
+    font-size: clamp(3.5%, 3vw, 5.8vh);
+    text-align: justify;
+}
+
+.texto-sobre p{
+    margin-left: 5.4%;
+    margin-right: 5.4%;
+    margin-top: 4%;
+    font-size: clamp(8%, 3vw, 6vh);
+    text-align: justify;
+}
+
+.final img{
+    max-width: 100%;
+    transform: rotate(90deg);
+    margin-top: -10%;
+    margin-left: 30%;
+    width: 50%;
+    margin-bottom: -13%;
+
+}
+
+/* RODAPÉ */
+footer{
+    background-color: #F9F2E7;
+    background: linear-gradient(to top, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, white);
+    height: 690px;
+    width: 100%;
+}
+
+.container2{
+    display: flex;
+}
+
+.container3{
+    margin-top: 80px;
+    width: 120%;
+}
+
+.contact-info{
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.contact-info img{
+    width: 15%;
+}
+
+.contact-info a{
+    margin-left: 10px;
+    color: #7B2E0F;
+    font-size: 2.8vh;
+    text-decoration: none;
+}
+
+.zap{
+    width: 45%;
+}
+
+.email{
+    width: 20%;
+}
+
+.local{
+    width: 35%;
+}
+
+footer .boxs{
+    display: flex;
+    margin-left: -100px;
+}
+
+.boxs p{
+    color: #7B2E0F;
+    text-align: justify;
+    font-size: 4vh;
+    margin-top: 100px;
+    width: 86%;
+}
+
+.boxs a{
+    list-style: none;
+    cursor: pointer;
+    color: #7B2E0F;
+    font-size: 20px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.container4{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}

@@ -190,14 +190,117 @@ main{
     background-color: transparent;
     color: black;
     padding: 40px 50px;
-    border: 2px solid #66270E;
+    border: 2px solid #E78B00;
     font-size: 2.4rem;
     letter-spacing: 3px;
-    margin-left: 10%;
+    margin-left: 40%;
     width: 25%;
     cursor: pointer;
-    margin-top: 20%;
+    margin-top: 3%;
+    color: #E78B00;
+}
+
+.fundo2 button:hover{
+    background-color: #E78B00;
+    color: white;
+}
+
+/* terceira parte */
+.tratamentos button{
+    width: 100%;
+    margin-top: 5%;
+    border: transparent;
+    background-color: #EABE79;
+    height: 90px;
+    font-size: 2.3vh;
+    color: black;
+    cursor: pointer;
+}
+
+.tratamentos button:hover{
+    background-color: black;
+    color: #EABE79;
+}
+
+.tratamentos_img1{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin-top: 3%;
+    margin-left: 5.4%;
+    margin-right: 5.4%;
+}
+
+.acne button{
     color: #66270E;
+    border: 2px solid #66270E;
+    background-color: transparent;
+    margin-left: 5.4%;
+    width: 22%;
+    height: 7vh;
+    margin-top: 0.5%;
+    cursor: pointer;
+}
+
+.acne button:hover{
+    background-color: #66270E;
+    color: white;
+}
+
+.tratamentos_img2{
+    margin-top: -18.5%;
+    margin-left: 39%;
+    margin-right: 5.4%;
+}
+
+.infantil button{
+    color: #66270E;
+    border: 2px solid #66270E;
+    background-color: transparent;
+    margin-left: 39%;
+    width: 22%;
+    height: 7vh;
+    cursor: pointer;
+    margin-top: 0.5%;
+}
+
+.infantil button:hover{
+    background-color: #66270E;
+    color: white;
+}
+
+.tratamentos_img3{
+    margin-top: -18.5%;
+    margin-left: 72.7%;
+    margin-right: 5.4%;
+}
+
+.rosacea button{
+    color: #66270E;
+    border: 2px solid #66270E;
+    background-color: transparent;
+    margin-left: 72.7%;
+    width: 22%;
+    height: 7vh;
+    cursor: pointer;
+    margin-top: 0.5%;
+}
+
+.rosacea button:hover{
+    background-color: #66270E;
+    color: white;
+}
+
+/* quarta parte */
+.medica{
+    background-color: #F9F2E7;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.raquel{
+    margin-left: 5.4%;
+    margin-right: 5;
+    
 }
 
 /* RODAPÉ */

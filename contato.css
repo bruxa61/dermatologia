@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+  }
+  
+  body {
+    background-color: #ffffff;
+  }
+  
+  /* Navbar */
+  
+  /* .container {
+    max-width: 100%;
+  } */
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    background-color: #a44a26;
+    box-shadow: 0vh 0.07vh 0.9vh;
+  }
+  #barra {
+    height: 6vh;
+    border-left: 0.01px solid white;
+  }
+  
+  .Perfilzinho {
+    margin-top: 1px;
+  }
+  
+  nav .menu-icon {
+    cursor: pointer;
+    display: none;
+  }
+  
+  nav .logo a {
+    font-size: 9vh;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 10%;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  nav ul li {
+    padding: 0 1vh;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-size: 5vh;
+    /* text-transform: uppercase; */
+    color: white;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-bottom: 0.1vh solid transparent;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  nav ul li a:hover {
+    transform: scale(1, 2);
+    border-bottom: 0.3vh solid white;
+  }
+  
+  .contato {
+    text-decoration: none;
+    font-size: 5vh;
+    /* text-transform: uppercase; */
+    color: white;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-bottom: 0.3vh solid white;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  /* Corpo */
+  
+  .mulher {
+    width: 20%;
+    margin-left: 5.4%;
+    margin-top: -17%;
+  }
+  
+  .flor {
+    margin-left: 70%;
+    width: 17%;
+    margin-top: 2%;
+  }
+  
+  .titulo {
+    font-size: clamp(12%, 10vw, 12vh);
+    color: #a44a26;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: -14%;
+    margin-left: 26%;
+  }
+  
+  .sub {
+    font-size: clamp(8%, 1.5vw, 3.5vh);
+    color: #000000;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 32%;
+  }
+  
+  .direito {
+    font-size: clamp(5%, 3.5vw, 5.5vh);
+    color: #a44a26;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 69%;
+    margin-top: 1%;
+  }
+  
+  .local1 {
+    font-size: clamp(8%, 1.5vw, 3.5vh);
+    color: #000000;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 75%;
+    margin-top: 3%;
+  }
+  
+  .local2 {
+    font-size: clamp(8%, 1.5vw, 3.5vh);
+    color: #000000;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 71%;
+    margin-top: 1%;
+  }
+  
+  .mapa {
+    border-radius: 10px;
+    width: 20%;
+    border: 1px solid #a44a26;
+    margin-left: 69.5%;
+    margin-top: 2%;
+  }
+  
+  .atendimento {
+    font-size: clamp(5%, 2.5vw, 4.5vh);
+    color: #a44a26;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 73.5%;
+    margin-top: 1%;
+  }
+  
+  .aten1 {
+    font-size: clamp(8%, 1.5vw, 3.5vh);
+    color: #000000;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 71.8%;
+    margin-top: 1.5%;
+  }
+  
+  .aten2 {
+    font-size: clamp(8%, 1.5vw, 3.5vh);
+    color: #000000;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 73%;
+    margin-top: 1%;
+  }
+  
+  .contatinho {
+    font-size: clamp(5%, 2.5vw, 4.5vh);
+    color: #a44a26;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 76%;
+    margin-top: 2%;
+  }
+  
+  .zap {
+    width: 4%;
+    margin-left: 63%;
+    margin-top: 1%;
+  }
+  
+  .numero {
+    font-size: clamp(8%, 1.5vw, 3.5vh);
+    color: #000000;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 68%;
+    margin-top: -3.1%;
+  }
+  
+  .numero:hover {
+    text-decoration: underline;
+  }
+  
+  .email {
+    width: 4%;
+    margin-left: 63%;
+    margin-top: 1%;
+  }
+  
+  .email2 {
+    font-size: clamp(8%, 1.5vw, 3.5vh);
+    color: #000000;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 68%;
+    margin-top: -3.1%;
+  }
+  
+  .email2:hover {
+    text-decoration: underline;
+  }
+  
+  /* Formulário */
+  
+  
+  .ogin {
+    background-color: #ffffff;
+    border: 0.3vh solid #000000;
+    padding: 2vh;
+    width: 50%;
+    border-radius: 10px;
+    color: #c46139;
+    cursor: pointer;
+    height: 7vh;
+    font-size: clamp(8%, 1.5vw, 3.5vh);
+  }
+  
+  #Nome {
+    margin-left: 10%;
+  }
+  
+  .escritape {
+    font-family: "Urbanist", sans-serif;
+    font-size: clamp(8%, 3vw, 5vh);
+    letter-spacing: 1px;
+    margin-top: -33%;
+    margin-bottom: 1vh;
+    margin-left: 10%;
+  }
+  
+  #emailin {
+    margin-left: 10%;
+  }
+  
+  .escritape1 {
+    font-family: "Urbanist", sans-serif;
+    font-size: clamp(8%, 3vw, 5vh);
+    letter-spacing: 1px;
+    margin-top: 2%;
+    margin-bottom: 1vh;
+    margin-left: 10%;
+  }
+  
+  .ogin1 {
+    background-color: #ffffff;
+    border: 0.3vh solid #000000;
+    padding: 2vh;
+    padding-bottom: 15vh;
+    width: 50%;
+    border-radius: 10px;
+    color: #c46139;
+    cursor: pointer;
+    height: 20vh;
+    font-size: clamp(8%, 1.5vw, 3.5vh);
+  }
+  
+  #Mensagem {
+    margin-left: 10%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .escritape2 {
+    font-family: "Urbanist", sans-serif;
+    font-size: clamp(8%, 3vw, 5vh);
+    letter-spacing: 1px;
+    margin-top: 2%;
+    margin-bottom: 1vh;
+    margin-left: 10%;
+  }
+  
+  .botao {
+    width: 15%;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+    background-color: #A44A26;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 40%;
+    font-size: clamp(8%, 2vw, 4vh);
+    cursor: pointer;
+  }
+  
+  .botao:hover {
+    transform: scale(1.2);
+  }

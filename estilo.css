@@ -120,6 +120,7 @@ main{
     margin-left: 10%;
     margin-top: 5%;
     color: #7B2E0F;
+    font-family: "Cormorant Garamond", serif;
 }
 
 .text-bx p{
@@ -129,6 +130,7 @@ main{
     color: #7B2E0F;
     margin-left: 10%;
     width: 81%;
+    font-family: "Urbanist", sans-serif;
 }
 
 .text-bx button{
@@ -144,6 +146,7 @@ main{
     cursor: pointer;
     margin-top: 20%;
     color: #66270E;
+    font-family: "Urbanist", sans-serif;
 }
 
 .text-bx button:hover{
@@ -170,19 +173,21 @@ main{
 }
 
 .fundo2 h1{
-    font-size: clamp(6%, 7vw, 8vh);
+    font-size: clamp(6%, 7vw, 9vh);
     margin-left: 40%;
     margin-right: 20%;
     margin-top: -50%;
     color: #E78B00;
+    font-family: "Cormorant Garamond", serif;
 }
 
 .fundo2 p{
     margin-left: 40%;
     margin-right: 5.4%;
     margin-top: 3%;
-    font-size: clamp(3.5%, 3vw, 4.3vh);
+    font-size: clamp(3.5%, 3vw, 3.85vh);
     text-align: justify;
+    font-family: "Urbanist", sans-serif;
 }
 
 .fundo2 button{
@@ -196,8 +201,19 @@ main{
     margin-left: 40%;
     width: 25%;
     cursor: pointer;
-    margin-top: 3%;
+    margin-top: 3.3%;
     color: #E78B00;
+    font-family: "Urbanist", sans-serif;
+}
+
+.fundo2 button a{
+    text-decoration: none;
+    color: #E78B00;
+}
+
+.fundo2 button a:hover{
+    background-color: #E78B00;
+    color: white;
 }
 
 .fundo2 button:hover{
@@ -212,9 +228,10 @@ main{
     border: transparent;
     background-color: #EABE79;
     height: 90px;
-    font-size: 2.3vh;
+    font-size: 4vh;
     color: black;
     cursor: pointer;
+    font-family: "Urbanist", sans-serif;
 }
 
 .tratamentos button:hover{
@@ -239,6 +256,7 @@ main{
     height: 7vh;
     margin-top: 0.5%;
     cursor: pointer;
+    font-family: "Urbanist", sans-serif;
 }
 
 .acne button:hover{
@@ -261,6 +279,7 @@ main{
     height: 7vh;
     cursor: pointer;
     margin-top: 0.5%;
+    font-family: "Urbanist", sans-serif;
 }
 
 .infantil button:hover{
@@ -283,6 +302,7 @@ main{
     height: 7vh;
     cursor: pointer;
     margin-top: 0.5%;
+    font-family: "Urbanist", sans-serif;
 }
 
 .rosacea button:hover{
@@ -295,12 +315,30 @@ main{
     background-color: #F9F2E7;
     width: 100%;
     margin-top: 5%;
+    height: 805px;
 }
 
-.raquel{
+.escrita img{
     margin-left: 5.4%;
     margin-right: 5;
-    
+}
+
+.escrita h1{
+    color: #7B2E0F;
+    margin-left: 88vh;
+    font-size: 8vh;
+    margin-top: -40%;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.escrita li{
+    font-size: 5vh;
+    margin-left: 88vh;
+    color: #7B2E0F;
+    margin-right: 5.4%;
+    text-align: justify;
+    margin-top: 4%;
+    font-family: "Urbanist", sans-serif;
 }
 
 /* RODAPÉ */
@@ -309,6 +347,7 @@ footer{
     background: linear-gradient(to top, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, white);
     height: 690px;
     width: 100%;
+    margin-top: 5%;
 }
 
 .container2{
@@ -334,8 +373,9 @@ footer{
 .contact-info a{
     margin-left: 10px;
     color: #7B2E0F;
-    font-size: 2.8vh;
+    font-size: 2.5vh;
     text-decoration: none;
+    font-family: "Urbanist", sans-serif;
 }
 
 .zap{
@@ -358,9 +398,10 @@ footer .boxs{
 .boxs p{
     color: #7B2E0F;
     text-align: justify;
-    font-size: 4vh;
+    font-size: 3.8vh;
     margin-top: 100px;
     width: 86%;
+    font-family: "Urbanist", sans-serif;
 }
 
 .boxs a{
@@ -370,6 +411,7 @@ footer .boxs{
     font-size: 20px;
     line-height: 1;
     text-decoration: none;
+    font-family: "Urbanist", sans-serif;
 }
 
 .container4{

@@ -1,0 +1,679 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+
+body{
+    background-color: #ffffff;
+}
+
+/* HEADER */
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    background-color: #A44A26;
+    box-shadow: 0.0vh 0.07vh 0.9vh ;
+}
+#barra{
+    height: 6vh;
+    border-left: 0.01px solid white;
+}
+
+.Perfilzinho{
+    margin-top: 1px;
+}
+
+nav .menu-icon{
+    cursor: pointer;
+    display: none;
+}
+
+nav .logo a{
+    font-size: clamp(7%, 6vw, 8vh);
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 10%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 1vh;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 5vh;
+    color: white;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-bottom: 0.3vh solid transparent;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+nav ul li a:hover{
+    transform: scale(1,2);
+    border-bottom: 0.3vh solid white;
+}
+
+
+.pomada img{
+    width: 15%;
+    margin-top: 6%;
+    margin-left: 5.4%;
+}
+
+.acne{
+    height: 29.3vh;
+    width: 69.2%;
+    background-color: #F9F2E7;
+    margin-left: 25%;
+    margin-top: -15.3%;
+}
+
+.sinais-acne{
+    width: 43.6%;
+    height: 35vh;
+    background-color: #F9F2E7;
+    margin-left: 5.4%;
+    margin-top: 3.5%;
+    display: inline-block;
+}
+
+.tratamento-acne{
+    width: 43.6%;
+    height: 35vh;
+    background-color: #F9F2E7;
+    margin-right: 5.4%;
+    margin-top: 3.5%;
+    float: right;
+}
+
+.acne h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 5%;
+    color: #7B2E0F;
+    padding-top: 1%;
+}
+
+.acne p{
+    font-size: clamp(3%, 3vw, 4vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 5%;
+    color: #7B2E0F;
+}
+
+#p1{
+    margin-top: 1.5%;
+}
+
+.sinais-acne h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 6%;
+    color: #7B2E0F;
+    padding-top: 2.5%;
+}
+
+.sinais-acne ul{
+    font-size: clamp(3%, 3vw, 4vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 15%;
+    color: #7B2E0F;
+    margin-top: 3%;
+}
+
+.tratamento-acne h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 6%;
+    color: #7B2E0F;
+    padding-top: 2.5%;
+}
+
+.tratamento-acne ul{
+    font-size: clamp(3%, 3vw, 4vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 14%;
+    color: #7B2E0F;
+    margin-top: 3%;
+}
+
+.pt-rosacea{
+    width: 89.2%;
+    height: 90.7vh;
+    background-color: #A44A26;
+    margin-left: 5.4%;
+    margin-top: 6%;
+}
+
+.protetor img{
+    width: 15%;
+    margin-top: 6%;
+    margin-left: 5.4%;
+}
+
+.rosacea{
+    height: 29.3vh;
+    width: 69.2%;
+    background-color: #F9F2E7;
+    margin-left: 25%;
+    margin-top: -15.3%;
+}
+
+.sinais-rosacea{
+    width: 43.6%;
+    height: 35vh;
+    background-color: #F9F2E7;
+    margin-left: 5.4%;
+    margin-top: 3.5%;
+    display: inline-block;
+}
+
+.tratamento-rosacea{
+    width: 43.6%;
+    height: 35vh;
+    background-color: #F9F2E7;
+    margin-right: 5.4%;
+    margin-top: 3.5%;
+    float: right;
+}
+
+.rosacea h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 5%;
+    color: #7B2E0F;
+    padding-top: 1%;
+}
+
+.rosacea p{
+    font-size: clamp(3%, 3vw, 3.5vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 5%;
+    color: #7B2E0F;
+}
+
+#p2{
+    margin-top: 1.5%;
+}
+
+.sinais-rosacea h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 6%;
+    color: #7B2E0F;
+    padding-top: 0.8%;
+}
+
+.sinais-rosacea ul{
+    font-size: clamp(3%, 3vw, 4vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 15%;
+    color: #7B2E0F;
+    margin-top: 4%;
+}
+
+.tratamento-rosacea h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 6%;
+    color: #7B2E0F;
+    padding-top: 0.8%;
+}
+
+.tratamento-rosacea ul{
+    font-size: clamp(3%, 3vw, 3.5vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 14%;
+    color: #7B2E0F;
+    margin-top: 2%;
+}
+
+.crianca img{
+    width: 15%;
+    margin-top: 6%;
+    margin-left: 5.4%;
+}
+
+.infantil{
+    height: 29.3vh;
+    width: 69.2%;
+    background-color: #F9F2E7;
+    margin-left: 25%;
+    margin-top: -15.3%;
+}
+
+.sinais-infa{
+    width: 43.6%;
+    height: 35vh;
+    background-color: #F9F2E7;
+    margin-left: 5.4%;
+    margin-top: 3.5%;
+    display: inline-block;
+}
+
+.tratamento-infa{
+    width: 43.6%;
+    height: 35vh;
+    background-color: #F9F2E7;
+    margin-right: 5.4%;
+    margin-top: 3.5%;
+    float: right;
+}
+
+.infantil h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 5%;
+    color: #7B2E0F;
+    padding-top: 0.8%;
+}
+
+.infantil p{
+    font-size: clamp(3%, 3vw, 3.8vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 5%;
+    color: #7B2E0F;
+    margin-top: 1%;
+}
+
+
+.sinais-infa h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 6%;
+    color: #7B2E0F;
+    padding-top: 1%;
+}
+
+.sinais-infa ul{
+    font-size: clamp(3%, 3vw, 3.9vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 15%;
+    color: #7B2E0F;
+    margin-top: 2%;
+}
+
+.tratamento-infa h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 6%;
+    color: #7B2E0F;
+    padding-top: 1%;
+}
+
+.tratamento-infa ul{
+    font-size: clamp(3%, 3vw, 4vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 14%;
+    color: #7B2E0F;
+    margin-top: 3%;
+}
+
+.pt-micose{
+    width: 89.2%;
+    height: 90.7vh;
+    background-color: #A44A26;
+    margin-left: 5.4%;
+    margin-top: 6%;
+}
+
+.mao img{
+    width: 15%;
+    margin-top: 6%;
+    margin-left: 5.4%;
+}
+
+.micose{
+    height: 29.3vh;
+    width: 69.2%;
+    background-color: #F9F2E7;
+    margin-left: 25%;
+    margin-top: -15.3%;
+}
+
+.sinais-micose{
+    width: 43.6%;
+    height: 35vh;
+    background-color: #F9F2E7;
+    margin-left: 5.4%;
+    margin-top: 3.5%;
+    display: inline-block;
+}
+
+.tratamento-micose{
+    width: 43.6%;
+    height: 35vh;
+    background-color: #F9F2E7;
+    margin-right: 5.4%;
+    margin-top: 3.5%;
+    float: right;
+}
+
+.micose h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 5%;
+    color: #7B2E0F;
+    padding-top: 1%;
+}
+
+.micose p{
+    font-size: clamp(3%, 3vw, 3.5vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 5%;
+    color: #7B2E0F;
+}
+
+#p3{
+    margin-top: 1.5%;
+}
+
+.sinais-micose h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 6%;
+    color: #7B2E0F;
+    padding-top: 3%;
+}
+
+.sinais-micose ul{
+    font-size: clamp(3%, 3vw, 4vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 15%;
+    color: #7B2E0F;
+    margin-top: 4%;
+}
+
+.tratamento-micose h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 6%;
+    color: #7B2E0F;
+    padding-top: 3%;
+}
+
+.tratamento-micose ul{
+    font-size: clamp(3%, 3vw, 3.5vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 14%;
+    color: #7B2E0F;
+    margin-top: 2%;
+}
+
+.bisnaga img{
+    width: 15%;
+    margin-top: 6%;
+    margin-left: 5.4%;
+}
+
+.hiperidrose{
+    height: 29.3vh;
+    width: 69.2%;
+    background-color: #F9F2E7;
+    margin-left: 25%;
+    margin-top: -15.3%;
+}
+
+.sinais-hiperidrose{
+    width: 43.6%;
+    height: 35vh;
+    background-color: #F9F2E7;
+    margin-left: 5.4%;
+    margin-top: 3.5%;
+    display: inline-block;
+}
+
+.tratamento-hiperidrose{
+    width: 43.6%;
+    height: 35vh;
+    background-color: #F9F2E7;
+    margin-right: 5.4%;
+    margin-top: 3.5%;
+    float: right;
+}
+
+.hiperidrose h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 5%;
+    color: #7B2E0F;
+    padding-top: 1.5%;
+}
+
+.hiperidrose p{
+    font-size: clamp(3%, 3vw, 4vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 5%;
+    color: #7B2E0F;
+    margin-top: 1.5%;
+}
+
+
+.sinais-hiperidrose h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 6%;
+    color: #7B2E0F;
+    padding-top: 1%;
+}
+
+.sinais-hiperidrose ul{
+    font-size: clamp(3%, 3vw, 3.9vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 15%;
+    color: #7B2E0F;
+    margin-top: 2.5%;
+}
+
+.tratamento-hiperidrose h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 6%;
+    color: #7B2E0F;
+    padding-top: 1%;
+}
+
+.tratamento-hiperidrose ul{
+    font-size: clamp(3%, 3vw, 3.76vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 14%;
+    color: #7B2E0F;
+    margin-top: 2.5%;
+}
+
+.pt-melasma{
+    width: 89.2%;
+    height: 90.7vh;
+    background-color: #A44A26;
+    margin-left: 5.4%;
+    margin-top: 6%;
+}
+
+.creme img{
+    width: 15%;
+    margin-top: 6%;
+    margin-left: 5.4%;
+}
+
+.melasma{
+    height: 29.3vh;
+    width: 69.2%;
+    background-color: #F9F2E7;
+    margin-left: 25%;
+    margin-top: -15.3%;
+}
+
+.sinais-melasma{
+    width: 43.6%;
+    height: 35vh;
+    background-color: #F9F2E7;
+    margin-left: 5.4%;
+    margin-top: 3.5%;
+    display: inline-block;
+}
+
+.tratamento-melasma{
+    width: 43.6%;
+    height: 35vh;
+    background-color: #F9F2E7;
+    margin-right: 5.4%;
+    margin-top: 3.5%;
+    float: right;
+}
+
+.melasma h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 5%;
+    color: #7B2E0F;
+    padding-top: 1%;
+}
+
+.melasma p{
+    font-size: clamp(3%, 3vw, 3.5vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 5%;
+    color: #7B2E0F;
+}
+
+#p4{
+    margin-top: 1.2%;
+}
+
+.sinais-melasma h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 6%;
+    color: #7B2E0F;
+    padding-top: 2%;
+}
+
+.sinais-melasma ul{
+    font-size: clamp(3%, 3vw, 3.9vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 15%;
+    color: #7B2E0F;
+    margin-top: 4%;
+}
+
+.tratamento-melasma h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 6%;
+    color: #7B2E0F;
+    padding-top: 2%;
+}
+
+.tratamento-melasma ul{
+    font-size: clamp(3%, 3vw, 3.8vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 14%;
+    color: #7B2E0F;
+    margin-top: 2%;
+}
+
+.pente img{
+    width: 15%;
+    margin-top: 6%;
+    margin-left: 5.4%;
+}
+
+.queda{
+    height: 29.3vh;
+    width: 69.2%;
+    background-color: #F9F2E7;
+    margin-left: 25%;
+    margin-top: -15.3%;
+}
+
+.sinais-queda{
+    width: 43.6%;
+    height: 39vh;
+    background-color: #F9F2E7;
+    margin-left: 5.4%;
+    margin-top: 3.5%;
+    display: inline-block;
+}
+
+.tratamento-queda{
+    width: 43.6%;
+    height: 39vh;
+    background-color: #F9F2E7;
+    margin-right: 5.4%;
+    margin-top: 3.5%;
+    float: right;
+}
+
+.queda h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 5%;
+    color: #7B2E0F;
+    padding-top: 1%;
+}
+
+.queda p{
+    font-size: clamp(3%, 3vw, 4vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 5%;
+    color: #7B2E0F;
+}
+
+#p5{
+    margin-top: 1.6%;
+}
+
+.sinais-queda h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 6%;
+    color: #7B2E0F;
+    padding-top: 1%;
+}
+
+.sinais-queda ul{
+    font-size: clamp(3%, 3vw, 3.5vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 15%;
+    color: #7B2E0F;
+    margin-top: 1.5%;
+}
+
+.tratamento-queda h1{
+    font-size: clamp(5%, 4vw, 6vh);
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 6%;
+    color: #7B2E0F;
+    padding-top: 1%;
+}
+
+.tratamento-queda ul{
+    font-size: clamp(3%, 3vw, 4vh);
+    font-family: "Urbanist", sans-serif;
+    margin-left: 14%;
+    color: #7B2E0F;
+    margin-top: 3%;
+}

@@ -1,0 +1,53 @@
+*{
+    background-color: #F9F2E7;
+}
+    
+    #Login input {
+        background-color: #ffffff;
+        border: none;
+        padding: 2vh;
+        font-size: 1rem;
+        width: 80vh;
+        border-radius: 1rem;
+        color: #C46139;
+        box-shadow: 0 0.4rem #dfd9d9;
+        cursor: pointer;
+    }
+    
+    #Login input:focus {
+        outline-color: #c5c5c5;
+    }
+    
+    #Senha input {
+        background-color: #ffffff;
+        border: none;
+        padding: 2vh;
+        font-size: 1rem;
+        width: 80vh;
+        border-radius: 1rem;
+        color: #C46139;
+        box-shadow: 0 0.4rem #dfd9d9;
+        cursor: pointer;
+    }
+    
+    #Senha input:focus {
+        outline-color: #c5c5c5;
+    }
+    
+    .escritape {
+        font-family: "Urbanist", sans-serif;
+        font-size: 210%;
+        letter-spacing: 1px;
+        margin-top: 5vh;
+        margin-bottom: 1vh;
+    }
+    
+    .caixas{
+        margin-left: 10vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #blocol {
+        margin-top: 10vh;
+    }

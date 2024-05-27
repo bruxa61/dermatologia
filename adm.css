@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    /* font-family: ; */
 }
 
 body{
@@ -11,10 +9,6 @@ body{
 }
 
 /* HEADER */
-/* .container{
-    max-width: 100%;
-} */
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -79,6 +73,7 @@ nav ul li a:hover{
     border-bottom: 0.3vh solid white;
 }
 
+/* COTEUDO */
 .container{
     display: flex;
     justify-content: space-evenly;
@@ -91,16 +86,28 @@ nav ul li a:hover{
     background-color: white;
 }
 
+.cadastro a{
+    text-decoration: none;
+}
+
 .consultas{
     width: 23%;
     height: 55vh;
     background-color: white;
 }
 
+.consultas a{
+    text-decoration: none;
+}
+
 .dados{
     width: 23%;
     height: 55vh;
     background-color: white;
+}
+
+.dados a{
+    text-decoration: none;
 }
 
 .cadastro p{

@@ -25,17 +25,24 @@
 /* CARDS */
 /* rafa */
 .card_rafa {
-    --bg-color: #ceb2fc;
-    --bg-color-light: #f0e7ff;
+    --bg-color: #da8403;
+    --bg-color-light: #f5dbb5;
     --text-color-hover: #fff;
-    --box-shadow-color: rgba(206, 178, 252, 0.48);
+    --box-shadow-color: #a76503;
+}
+
+.card_rafa img{
+    width: 100%; 
+    height: 100%;
+    z-index: 1000;
+    background-color: transparent;
 }
 
 .card_rafa{
-    width: 220px;
-    height: 321px;
+    width: 17%;
+    height: 55vh;
     background: #fff;
-    border-top-right-radius: 10px;
+    border-radius: 2vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -45,6 +52,8 @@
     box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
     transition: all 0.3s ease-out;
     text-decoration: none;
+    float: left;
+    margin: 8%;
 }
 
 .card_rafa:hover {
@@ -54,7 +63,7 @@
 }
 
 .card_rafa:hover .overlay {
-    transform: scale(4) translateZ(0);
+    transform: scale(10) translateZ(0);
 }
 
 .card_rafa:hover .circle {
@@ -66,75 +75,48 @@
     background: var(--bg-color-light);
 }
 
-.card_rafa:hover p {
-    color: var(--text-color-hover);
+.card_rafa:hover p{
+    color: white;
 }
 
 .card_rafa p {
     font-size: 17px;
-    color: #4c5656;
-    margin-top: 30px;
+    color: #000;
+    margin-top: 10%;
     z-index: 1000;
-    transition: color 0.3s ease-out;
+    background-color: transparent;
 }
 
-.circle {
-    width: 131px;
-    height: 131px;
-    border-radius: 50%;
-    background: #fff;
-    border: 2px solid var(--bg-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-    transition: all 0.3s ease-out;
+.card_rafa p a{
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
 }
 
-.circle:after {
-    content: "";
-    width: 118px;
-    height: 118px;
-    display: block;
-    position: absolute;
-    background: var(--bg-color);
-    border-radius: 50%;
-    top: 7px;
-    left: 7px;
-    transition: opacity 0.3s ease-out;
-}
-
-.circle svg {
-    z-index: 10000;
-    transform: translateZ(0);
-}
-
-.overlay {
-    width: 118px;
-    position: absolute;
-    height: 118px;
-    border-radius: 50%;
-    background: var(--bg-color);
-    top: 70px;
-    left: 50px;
-    z-index: 0;
-    transition: transform 0.3s ease-out;
+.card_rafa:hover p a{
+    color: var(--text-color-hover);
 }
 
 /* bruna */
 .card_bruna {
-    --bg-color: #ceb2fc;
-    --bg-color-light: #f0e7ff;
+    --bg-color: #da8403;
+    --bg-color-light: #f5dbb5;
     --text-color-hover: #fff;
-    --box-shadow-color: rgba(206, 178, 252, 0.48);
+    --box-shadow-color: #a76503;
+}
+
+.card_bruna img{
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: transparent;
 }
 
 .card_bruna{
-    width: 220px;
-    height: 321px;
+    width: 17%;
+    height: 55vh;
     background: #fff;
-    border-top-right-radius: 10px;
+    border-radius: 2vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -144,6 +126,8 @@
     box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
     transition: all 0.3s ease-out;
     text-decoration: none;
+    float: left;
+    margin: 8%;
 }
 
 .card_bruna:hover {
@@ -153,7 +137,7 @@
 }
 
 .card_bruna:hover .overlay {
-    transform: scale(4) translateZ(0);
+    transform: scale(10) translateZ(0);
 }
 
 .card_bruna:hover .circle {
@@ -165,75 +149,48 @@
     background: var(--bg-color-light);
 }
 
-.card_bruna:hover p {
+.card_bruna:hover p{
     color: var(--text-color-hover);
 }
 
 .card_bruna p {
     font-size: 17px;
-    color: #4c5656;
-    margin-top: 30px;
+    color: #000;
+    margin-top: 10%;
     z-index: 1000;
-    transition: color 0.3s ease-out;
+    background-color: transparent;
 }
 
-.circle {
-    width: 131px;
-    height: 131px;
-    border-radius: 50%;
-    background: #fff;
-    border: 2px solid var(--bg-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-    transition: all 0.3s ease-out;
+.card_bruna p a{
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
 }
 
-.circle:after {
-    content: "";
-    width: 118px;
-    height: 118px;
-    display: block;
-    position: absolute;
-    background: var(--bg-color);
-    border-radius: 50%;
-    top: 7px;
-    left: 7px;
-    transition: opacity 0.3s ease-out;
-}
-
-.circle svg {
-    z-index: 10000;
-    transform: translateZ(0);
-}
-
-.overlay {
-    width: 118px;
-    position: absolute;
-    height: 118px;
-    border-radius: 50%;
-    background: var(--bg-color);
-    top: 70px;
-    left: 50px;
-    z-index: 0;
-    transition: transform 0.3s ease-out;
+.card_bruna:hover p a{
+    color: var(--text-color-hover);
 }
 
 /* arthur */
 .card_arthur {
-    --bg-color: #ceb2fc;
-    --bg-color-light: #f0e7ff;
+    --bg-color: #da8403;
+    --bg-color-light: #f5dbb5;
     --text-color-hover: #fff;
-    --box-shadow-color: rgba(206, 178, 252, 0.48);
+    --box-shadow-color: #a76503;
+}
+
+.card_arthur img{
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: transparent;
 }
 
 .card_arthur{
-    width: 220px;
-    height: 321px;
+    width: 17%;
+    height: 55vh;
     background: #fff;
-    border-top-right-radius: 10px;
+    border-radius: 2vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -243,6 +200,8 @@
     box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
     transition: all 0.3s ease-out;
     text-decoration: none;
+    float: left;
+    margin: 8%;
 }
 
 .card_arthur:hover {
@@ -252,7 +211,7 @@
 }
 
 .card_arthur:hover .overlay {
-    transform: scale(4) translateZ(0);
+    transform: scale(10) translateZ(0);
 }
 
 .card_arthur:hover .circle {
@@ -260,7 +219,7 @@
     background: var(--bg-color);
 }
 
-.card_rafa:hover .circle:after {
+.card_arthur:hover .circle:after {
     background: var(--bg-color-light);
 }
 
@@ -270,10 +229,20 @@
 
 .card_arthur p {
     font-size: 17px;
-    color: #4c5656;
-    margin-top: 30px;
+    color: #000;
+    margin-top: 10%;
     z-index: 1000;
-    transition: color 0.3s ease-out;
+    background-color: transparent;
+}
+
+.card_arthur p a{
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
+}
+
+.card_arthur:hover p a{
+    color: var(--text-color-hover);
 }
 
 .circle {
@@ -309,13 +278,13 @@
 }
 
 .overlay {
-    width: 118px;
+    width: 12vh;
     position: absolute;
-    height: 118px;
+    height: 12vh;
     border-radius: 50%;
     background: var(--bg-color);
-    top: 70px;
-    left: 50px;
+    top: 30%;
+    left: 30%;
     z-index: 0;
     transition: transform 0.3s ease-out;
 }

@@ -78,7 +78,6 @@ nav ul li a:hover{
     border-bottom: 0.3vh solid white;
 }
 
-/* CONTEUDO */
 .consultorio img{
     width: 42%;
     margin-top: 3.5%;
@@ -128,7 +127,7 @@ nav ul li a:hover{
     margin-left: 50%;
     margin-right: 5.4%;
     margin-top: 3%;
-    font-size: clamp(3.5%, 3vw, 5.8vh);
+    font-size: clamp(3.5%, 3vw, 6vh);
     text-align: justify;
 }
 
@@ -141,90 +140,8 @@ nav ul li a:hover{
 }
 
 .final img{
-    max-width: 100%;
+    width: 40%;
     transform: rotate(90deg);
-    margin-top: -10%;
+    margin-top: -16%;
     margin-left: 30%;
-    width: 50%;
-    margin-bottom: -13%;
-
-}
-
-/* RODAPÉ */
-footer{
-    background-color: #F9F2E7;
-    background: linear-gradient(to top, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, white);
-    height: 690px;
-    width: 100%;
-}
-
-.container2{
-    display: flex;
-}
-
-.container3{
-    margin-top: 80px;
-    width: 120%;
-}
-
-.contact-info{
-    display: flex;
-    margin-right: 20px;
-    flex-direction: column;
-    text-align: justify;
-}
-
-.contact-info img{
-    width: 15%;
-}
-
-.contact-info a{
-    margin-left: 10px;
-    color: #7B2E0F;
-    font-size: 2.8vh;
-    text-decoration: none;
-}
-
-.zap{
-    width: 45%;
-}
-
-.email{
-    width: 20%;
-}
-
-.local{
-    width: 35%;
-}
-
-footer .boxs{
-    display: flex;
-    margin-left: -100px;
-}
-
-.boxs p{
-    color: #7B2E0F;
-    text-align: justify;
-    font-size: 4vh;
-    margin-top: 100px;
-    width: 86%;
-}
-
-.boxs a{
-    list-style: none;
-    cursor: pointer;
-    color: #7B2E0F;
-    font-size: 20px;
-    line-height: 1;
-    text-decoration: none;
-}
-
-.container4{
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.responsive-img {
-    max-width: 100%;
-    height: auto;
 }

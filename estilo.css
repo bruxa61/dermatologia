@@ -98,11 +98,11 @@ nav ul li a:hover{
 .fundo{
     background-color: #F9F2E7;
     width: 100%;
-    height: 846px;
-    margin-top: -1.9vh;
+    height: 48%h;
+    margin-top: -1%;
 }
 main{
-    margin-top: 20px;
+    margin-top: 1%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -115,7 +115,7 @@ main{
 }
 
 .text-bx h1{
-    font-size: 5rem;
+    font-size: clamp(3%, 4vw, 9vh);
     width: 80%;
     margin-left: 10%;
     margin-top: 5%;
@@ -126,7 +126,7 @@ main{
 .text-bx p{
     color: black;
     margin-top: 5%;
-    font-size: 3rem;
+    font-size: clamp(3%, 4vw, 5vh);
     color: #7B2E0F;
     margin-left: 10%;
     width: 81%;
@@ -137,10 +137,10 @@ main{
     border: none;
     background-color: transparent;
     color: black;
-    padding: 40px 50px;
-    border: 2px solid #66270E;
-    font-size: 2.4rem;
-    letter-spacing: 3px;
+    padding: 5.2vh 6.5vh;
+    border: 0.26vh solid #66270E;
+    font-size: clamp(3%, 4vw, 4vh);
+    letter-spacing: 0.39vh;
     margin-left: 10%;
     width: 75%;
     cursor: pointer;
@@ -149,18 +149,27 @@ main{
     font-family: "Urbanist", sans-serif;
 }
 
-.text-bx button:hover{
+.text-bx button a{
+    text-decoration: none;
+    color: #66270E;
+}
+
+.text-bx button a:hover{
     background-color: #66270E;
     color: white;
 }
 
-.text-bx button svg{
+.text-bx button:hover{
+    background-color: #66270E;
+    color: white;
+}
+/* .text-bx button svg{
     width: 20%;
 }
 
 .text-bx button svg:hover{
     color: white;
-}
+} */
 
 /* segunda parte */
 .fundo2{
@@ -194,7 +203,7 @@ main{
     border: none;
     background-color: transparent;
     color: black;
-    padding: 40px 50px;
+    padding: 5.2vh 6.5vh;
     border: 2px solid #E78B00;
     font-size: 2.4rem;
     letter-spacing: 3px;
@@ -227,7 +236,7 @@ main{
     margin-top: 5%;
     border: transparent;
     background-color: #EABE79;
-    height: 90px;
+    height: 11.8vh;
     font-size: 4vh;
     color: black;
     cursor: pointer;
@@ -259,6 +268,16 @@ main{
     font-family: "Urbanist", sans-serif;
 }
 
+.acne button a{
+    text-decoration: none;
+    color: #66270E;
+}
+
+.acne button a:hover{
+    background-color: #66270E;
+    color: white;
+}
+
 .acne button:hover{
     background-color: #66270E;
     color: white;
@@ -282,6 +301,16 @@ main{
     font-family: "Urbanist", sans-serif;
 }
 
+.infantil button a{
+    text-decoration: none;
+    color: #66270E;
+}
+
+.infantil button a:hover{
+    background-color: #66270E;
+    color: white;
+}
+
 .infantil button:hover{
     background-color: #66270E;
     color: white;
@@ -303,6 +332,16 @@ main{
     cursor: pointer;
     margin-top: 0.5%;
     font-family: "Urbanist", sans-serif;
+}
+
+.rosacea button a{
+    text-decoration: none;
+    color: #66270E;
+}
+
+.rosacea button a:hover{
+    background-color: #66270E;
+    color: white;
 }
 
 .rosacea button:hover{

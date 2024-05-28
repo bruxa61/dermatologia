@@ -15,62 +15,24 @@
 
 </head>
 <body>
+    <div class="prontuario">
     <h1>Prontuário Médico</h1>
+    </div>
 
     <section id="identificacao">
-        <h2>Identificação do Paciente</h2>
-
-        <section>
             <div class="caixas">
-            <div id="blocol"  class="escritape">Nome Completo:</div>
-            <div id="Login">
-                <input type="text" id="nome" name="nome" required>
-            </div>
-            <div class="escritape">Data de Nascimento:</div>
-            <div id="Senha">
-                <input type="date" id="dataNascimento" name="dataNascimento" required>
-            </div> 
+            <div class="diagnostico">
+            <div id="blocol"  class="escritape">Diagnóstico Principal:</div>
+        </div>
+        <div id="diagnostico">
+            <textarea id="diagnosticoPrincipal" name="diagnosticoPrincipal"></textarea>
+        </div>
             </div>
         </section>
-
-
-
-
-        <!-- <form>
-            <label for="nome">Nome Completo:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <label for="dataNascimento">Data de Nascimento:</label>
-            <input type="date" id="dataNascimento" name="dataNascimento" required>
-
-            <label for="sexo">Sexo:</label>
-            <select id="sexo" name="sexo" required>
-                <option value="Masculino">Masculino</option>
-                <option value="Feminino">Feminino</option>
-                <option value="Outro">Outro</option>
-            </select>
-
-            <label for="planoSaude">Plano de Saúde:</label>
-            <input type="text" id="planoSaude" name="planoSaude">
-        </form> -->
-
-    <!-- <section id="diagnostico">
-        <h2>Diagnóstico</h2>
-        <form>
-            <label for="diagnosticoPrincipal">Diagnóstico Principal:</label>
-            <textarea id="diagnosticoPrincipal" name="diagnosticoPrincipal"></textarea>
-        </form>
-    </section> -->
-
-    <section>
-        <div class="caixas">
-        <div id="blocol"  class="escritape">Login :</div>
-        <div id="Login">
-            <input id="email" type="text" placeholder="Digite seu E-mail" class="gin">
-        </div>
-        <div class="escritape">Senha :</div>
-        <div id="Senha">
-            <input id="" type="text" placeholder="Digite sua Senha" class="ogin">
-        </div> 
-        </div>
     </section>
+
+    <!-- Botão -->
+    <a href="consultasMEDICO.html"><input type="button" value="Salvar" class="botao" /></a>
+    </div>
+
+</body>

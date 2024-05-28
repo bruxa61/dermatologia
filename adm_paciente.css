@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fundo */
+.corpo {
+    width: 90%;
+    height: 80vh;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: #F9F2E7;
+    display: block;
+    align-items: center;
+}
+/* Titulo principal */
+.tituloprincipal {
+    font-size: clamp(8%, 5vw, 7vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 5%;
+    padding-top: 2%;
+    color: #A34E2D;
+}
+/* Todos input que são textos */
+.texto {
+    background-color: #A34E2D;
+    border: none;
+    height: 7vh;
+    border-radius: 1vh;
+    color: white;
+}
+/* Todos input que são data */
+.data {
+    height: 7vh;
+    background-color: #A34E2D;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    border-radius: 1vh;
+    border: none;
+    padding-left: 1%;
+    color: white;
+    font-size: clamp(8%, 2vw, 4vh);
+}
+/* Data do cadastro */
+.datadocadastro {
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    color: #A34E2D;
+}
+#cadastro {
+    margin-top: 1%;
+    width: 18%;
+}
+/* Nome do paciente */
+.nomedopaciente {
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    color: #A34E2D;
+}
+#nome {
+    width: 50%;
+    font-size: clamp(8%, 2vw, 4vh);
+    margin-top: 1%;
+}
+/* Seletor de sexo */
+.selecionarsexo{
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    color: #A34E2D;
+}
+#sex {
+    height: 7vh;
+    background-color: #A34E2D;
+    border-radius:1vh;
+    color: white;
+    width: 18%;
+    padding-left: 1%;
+    font-size: clamp(8%, 2vw, 4vh);
+    margin-top: 1%;
+}
+/* Data de Nascimento */
+.datadenascimento {
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    color: #A34E2D;
+}
+#nascimento {
+    margin-top: 1%;
+    width: 23%;
+}
+/* CPF */
+.titulocpf {
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    color: #A34E2D;
+}
+
+#cpf {
+    width: 40%;
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    margin-top: 1%;
+}
+/* RG */
+.titulorg {
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    color: #A34E2D;
+}
+
+#rg {
+    width: 77%;
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    margin-top: 1%;
+}
+/* Celular */
+.titulocelular {
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    color: #A34E2D;
+}
+
+#celular {
+    width: 20%;
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    margin-top: 1%;
+}
+/* Endereço */
+.tituloendereco {
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    color: #A34E2D;
+}
+#endereço {
+    width: 30%;
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    margin-top: 1%;
+}
+/* Botão de Voltar */
+.botao {
+    background-color: #A34E2D;
+    font-size: clamp(8%, 1.5vw, 3.5vh);
+    border-radius: 1vh;
+    color: white;
+    height: 7vh;
+    width: 10%;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    margin-top: -3.3%;
+    margin-left: 4%;
+}
+/* Botão de salvar */
+.uv-checkbox-wrapper {
+    display: inline-block;
+    position: relative;
+    margin-left: 60%;
+    top: -7.5%;
+
+  }
+  
+  .uv-checkbox {
+    display: none;
+  }
+  
+  .uv-checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .uv-checkbox-icon {
+    position: relative;
+    width: 2.5vw;
+    height: 5vh;
+    border: 2px solid #ccc;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    transition: border-color 0.3s ease, border-radius 0.3s ease;
+  }
+  
+  .uv-checkmark {
+    position: absolute;
+    /* top: 1em;
+    left: 1em; */
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 24;
+    stroke-dashoffset: 24;
+    transition: stroke-dashoffset 0.5s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  }
+  
+  .uv-checkbox-text {
+    margin-left: 0.5em;
+    transition: color 0.3s ease;
+    font-size: clamp(8%, 2vw, 4vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .uv-checkbox:checked + .uv-checkbox-label .uv-checkbox-icon {
+    border-color: #45c556;
+    border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+    background-color: #45c556;
+  }
+  
+  .uv-checkbox:checked + .uv-checkbox-label .uv-checkmark {
+    stroke-dashoffset: 0;
+  }
+  
+  .uv-checkbox:checked + .uv-checkbox-label .uv-checkbox-text {
+    color: #45c556;
+  }
+  
+  #imagem {
+    width: 20%;
+    margin-left: 76%;
+    margin-top: -38%;
+    position: absolute;
+  }
+  /* Posicionamento */
+.datinha {
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.pacientezinho {
+    margin-left: 40%;
+    margin-top: -7.7%;
+}
+.sexo {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.dat {
+    margin-left: 32%;
+    margin-top: -7.6%;
+}
+
+.pcpf {
+    margin-left: 52%;
+    margin-top: -7.4%;
+}
+
+.prg {
+    margin-left: 75%;
+    margin-top: -7.2%;
+}
+
+.pcelular {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.pendereco {
+    margin-left: 35%;
+    margin-top: -7.6%;
+}
+
+a{
+    text-decoration: none;
+    color: #45c556;
+}

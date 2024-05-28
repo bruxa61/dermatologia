@@ -78,21 +78,16 @@ nav ul li a:hover{
     transform: scale(1,2);
     border-bottom: 0.3vh solid white;
 }
-     
-
-
-
-
 
 .carcaça{
     height: 70vh;
-    width: 60%;
+    width: 1350;
     background-color: #FFDEB0;
     border: 0px solid #FFDEB0;
     border-radius: 1vh;
     margin-top: 4%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 11.4%;
+    margin-right: 11.4%;
     display: flex;
     
 }
@@ -110,7 +105,7 @@ nav ul li a:hover{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-}
+  }
 
 
 
@@ -120,46 +115,71 @@ nav ul li a:hover{
 background-color: #C46139;
 color: #ffffff;
 height: 70vh;
-width: 40%;
+width: 30%;
 border-radius: 1.2vh;
 clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
 
 }
 
+.escrita{
+    margin-bottom: 10%;
+    padding-top: 35%;
+    margin-left: 21%;
+    font-size: 4vh;
+    font-family: "Urbanist", sans-serif;
+    letter-spacing: 0.2vh;
+
+}
 .poa{
-    margin-top: 40%;
-    margin-bottom: 20%;
+    margin-left: 10%;
     
-    
-    width: 90%;
+    width: 70%;
+    height: 40%;
 }
 
+
 .papiro input {
+    text-decoration: #C46139;
     background-color: #ffffff;
   border: none;
   padding: 2vh;
-  font-size: 3vh;
-  width: 48vh;
+  font-size: 2vh;
+  width: 40vh;
   border-radius: 2.2vh;
   color: #C46139;
-  box-shadow: 0 0.9vh #dfd9d9;
+  box-shadow: 0 0.6vh #dfd9d9;
   cursor: pointer;
-  margin-top: 7%;
-  margin-left: 18.5%;
+  margin-bottom: 2vh;
 }
 
 .papiro input:focus {
     outline-color: #c5c5c5;
-    
 }
 
+
+select{
+    background-color: #ffffff;
+  border: none;
+  padding: 2vh;
+  font-size: 2vh;
+  width: 40vh;
+  border-radius: 2.2vh;
+  color: #00000091;
+  box-shadow: 0 0.6vh #dfd9d9;
+  cursor: pointer;
+  margin-bottom: 2vh;
+  outline-color: #c5c5c5;
+}
+.select:focus {
+    outline-color: #c5c5c5;
+}
 
 
 
 .caixas{
     margin-right: 4vh;
     width: 80%;
-    border: 1px solid transparent;
+    
 }
 
 
@@ -170,46 +190,54 @@ clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
     justify-content: center;
     color: #ffffff;
     font-family: "Urbanist", sans-serif;
-    font-size: 3.8vh;
-    margin-left: 31%;
-    margin-top: 7%;
+    font-size: 3.4vh;
+    margin-left: 55%;
+    margin-top: -4%;
     /* margin-left: 15vh; */
     height: 6vh;
-    width: 28vh;
+    width: 30vh;
     border-radius: 0.9vh;
     background-color: #C46139;
     cursor: pointer;
+
+}
+#aindanao {
+    font-family: "Urbanist", sans-serif;
+    margin-left: 15vh;
+    margin-top: 1vh;
+    font-size: large;
+    font-weight: 500;
+}
+
+#blocol {
+    margin-top: 10vh;
+}
+
+.caixadentro{
+    
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70%;
+    
 }
 
 .pls{
-    margin-left: 25%;
-    margin-top: 12%;
-    margin-bottom: 2%;
-    font-size: 4vh;
-    font-family: "Urbanist", sans-serif;
-    font-weight: 400;
-}
-
-.textim{
-    text-align: center;
+    margin-left: 8%;
     margin-top: 4%;
-    margin-left: 18.5%;
-    margin-right: 20%;
-    font-size: 2.5vh;
-    text-align: justify;
-}
-
-.esqueci{
-    margin-left: 42%;
-    margin-top: 4%;
-    margin-bottom: 2%;
-    font-size: 3vh;
+    margin-bottom: 3.5%;
+    font-size: 5.4vh;
     font-family: "Urbanist", sans-serif;
-    color: black;
 }
 
-a{
-    text-decoration: none;
+#imagem1 {
+    height: 5%;
+    width: 5%;
+}
+
+#genero1{
+    color: #c5c5c5;
+
 }
 
 /* RODAPÉ */
@@ -293,4 +321,8 @@ footer .boxs{
 .responsive-img {
     max-width: 100%;
     height: auto;
+}
+
+a{
+    text-decoration: none;
 }

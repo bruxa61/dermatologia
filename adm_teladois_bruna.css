@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+
+body{
+    background-color: #F9F2E7;
+}
+
+/* HEADER */
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    background-color: #A44A26;
+    box-shadow: 0.0vh 0.07vh 0.9vh ;
+}
+#barra{
+    height: 6vh;
+    border-left: 0.01px solid white;
+}
+
+.Perfilzinho{
+    margin-top: 1px;
+}
+
+nav .menu-icon{
+    cursor: pointer;
+    display: none;
+}
+
+nav .logo a{
+    font-size: clamp(7%, 6vw, 8vh);
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 10%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 1vh;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 5vh;
+    color: white;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-bottom: 0.3vh solid transparent;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+nav ul li a:hover{
+    transform: scale(1,2);
+    border-bottom: 0.3vh solid white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.paciente{
+    width: 19%;
+    height: 55vh;
+    background-color: #A44A26;
+    margin-top: 9%;
+    border-radius: 2vh;
+}
+
+.medico{
+    width: 19%;
+    height: 55vh;
+    background-color: #A44A26;
+    margin-top: 9%;
+    border-radius: 2vh;
+}
+
+.paciente p{
+    font-size: clamp(3%, 5vw, 6.5vh);
+    color: white;
+    margin-left: 21%;
+    margin-top: 10%;
+}
+
+.paciente a{
+    text-decoration: none;
+}
+
+.medico p{
+    font-size: clamp(3%, 5vw, 6.5vh);
+    color: white;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.medico a{
+    text-decoration: none;
+}
+
+.paciente img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.medico img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15%;
+}

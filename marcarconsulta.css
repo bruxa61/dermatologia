@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.tudo {
+    background-color: #F9F2E7;
+}
+
+/* Titulo principal */
+.tituloprincipal {
+    font-size: clamp(8%, 6vw, 8vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 5%;
+    padding-top: 5%;
+    color: #A34E2D;
+}
+/* Todos input que são textos */
+.texto {
+    background-color: #A34E2D;
+    border: none;
+    height: 7vh;
+    border-radius: 1vh;
+    color: white;
+}
+/* Todos input que são data */
+.input {
+    height: 7vh;
+    background-color: #A34E2D;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    border-radius: 1vh;
+    border: none;
+    padding-left: 1%;
+    color: white;
+    font-size: clamp(8%, 2vw, 4vh);
+    margin-top: 1%;
+}
+.titulo {
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    color: #A34E2D;
+}
+/* Tratamentos */
+.selecionartratamentos {
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    color: #A34E2D;
+}
+#tratamento {
+    height: 7vh;
+    background-color: #A34E2D;
+    border-radius:1vh;
+    color: white;
+    width: 23%;
+    padding-left: 1%;
+    font-size: clamp(8%, 2vw, 4vh);
+}
+.tratamentos {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+/* Data de Agendamento */
+.datadeagendamento {
+    font-size: clamp(8%, 3vw, 5vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    color: #A34E2D;
+}
+#agendamento {
+    width: 30%;
+}
+.datinha {
+    margin-left: 50%;
+    margin-top: -6.8%;
+}
+.tes {
+    background-color: #A34E2D;
+}
+/* Endereço */
+.pendereco {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#endereço {
+    width: 30%;
+    border: none;
+}
+/* Especialistas */
+.medicos{
+    margin-left: 50%;
+    margin-top: -6.8%;
+}
+#medico {
+    width: 40%;
+}
+/* Telefone */
+.ptelefone {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+#telefone {
+    width: 22%;
+}
+/* Celular */
+.pcelular {
+    margin-left: 50%;
+    margin-top: -6.9%;
+}
+/* E-mail */
+.email {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#email {
+    width: 30%;
+} 
+/* CEP */
+.pcep {
+    margin-left: 50%;
+    margin-top: -6.8%;
+}
+/* Imagem */
+/* #imagem {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -45%;
+} */
+/* Botão */
+.botao {
+    width: 10%;
+    height: 7vh;
+    background-color: #A34E2D;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    border-radius: 1vh;
+    border: none;
+    color: white;
+    font-size: clamp(8%, 2vw, 4vh);
+    cursor: pointer;
+}
+
+#botao1 {
+    margin-bottom: 1%;
+    top: 12%;
+    margin-left: 85%;
+    position: absolute;
+}
+
+#botao2 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 85%;
+}

@@ -230,6 +230,84 @@ select{
 
 }
 
-.generocor{
-    
+a{
+    text-decoration: none;
+}
+
+/* RODAPÉ */
+footer{
+    background-color: #F9F2E7;
+    background: linear-gradient(to top, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, white);
+    height: 280vh
+    width: 100%;
+    margin-top: 5%;
+}
+
+.container2{
+    display: flex;
+}
+
+.container3{
+    margin-top: 5%;
+    width: 120%;
+}
+
+.contact-info{
+    display: flex;
+    margin-right: 5%;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.contact-info img{
+    width: 15%;
+}
+
+.contact-info a{
+    margin-left: 4%;
+    color: #7B2E0F;
+    font-size: 2.5vh;
+    text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+}
+
+.zap{
+    width: 45%;
+}
+
+.email{
+    width: 20%;
+}
+
+.local{
+    width: 35%;
+}
+
+footer .boxs{
+    display: flex;
+    margin-left: -100px;
+}
+
+.boxs p{
+    color: #7B2E0F;
+    text-align: justify;
+    font-size: 3.8vh;
+    margin-top: 13%;
+    width: 86%;
+    font-family: "Urbanist", sans-serif;
+}
+
+.boxs a{
+    list-style: none;
+    cursor: pointer;
+    color: #7B2E0F;
+    font-size: clamp(3%, 2vw, 3vh);
+    line-height: 1;
+    text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+}
+
+.container4{
+    margin-left: 0;
+    margin-right: 0;
 }

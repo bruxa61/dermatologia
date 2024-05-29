@@ -1,19 +1,10 @@
-*{
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    /* font-family: ; */
-}
-
-body{
-    background-color: #ffffff;
 }
 
 /* HEADER */
-/* .container{
-    max-width: 100%;
-} */
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -78,79 +69,81 @@ nav ul li a:hover{
     border-bottom: 0.3vh solid white;
 }
 
-.consultorio img{
-    width: 42%;
-    margin-top: 3.5%;
+.Perfilzinho{
+    margin-top: 15%;
+    width: 5.5vh;
 }
 
-
-.consultorio{
-    display: flex;
-    justify-content: space-evenly;
+/* CONTEUDO */
+.card {
+    width: 45%;
+    height: 52vh;
+    margin: 0% auto;
+    background-color: #fff; 
+    box-shadow: 0 0.5vh 3vh #c9c9c9;
+    border-radius: 2vh;
+    font-family: "Urbanist", sans-serif;
+    margin-left: 5%;
+    margin-top: -28%;
 }
 
-#text-consul{
-    font-size: clamp(3.5%, 2.7vw, 7vh);
-    margin-left: 5.4%;
-    margin-right: 5.4%;
-    margin-top: 2%;
+.card-header {
+    background-color: #7B2E0F;
+    color: #fff;
+    padding: 3vh;
+    text-align: center;
+    border-radius: 2vh 2vh 0 0;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 5vh;
+    background-color: transparent;
+}
+
+.card-body {
+    padding: 2vh;
+    background-color: transparent;
+}
+
+.card-body p {
+    margin: 0;
+    font-size: 3.6vh;
+    background-color: transparent;
     text-align: justify;
+    line-height: 6vh;
+    margin-left: 3%;
 }
 
-#titulo{
+.card-body b{
+    background-color: transparent;
+    color: #66250b;
+}
+
+.card-footer{
+    margin-top: 1%;
+}
+
+.card-footer a{
+    font-family: "Urbanist", sans-serif;
+    color: #4BBCEC;
+    margin-left: 40%;
     text-decoration: none;
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: clamp(7%, 6vw, 10vh);
-    margin-top: 2.5%;
-    margin-left: 5.4%;
-    color: #E78B00;
+    font-size: 3vh;
 }
 
-.rosto img{
-    width: 42%;
-    margin-left: 5.4%;
-    margin-top: 4%;
-    display: inline-block;
-}
-
-.rosto h1{
-    font-size: clamp(6%, 7vw, 11vh);
-    margin-left: 50%;
-    margin-right: 8%;
-    margin-top: -63%;
-    color: #E78B00;
-}
-
-.rosto p{
-    margin-left: 50%;
-    margin-right: 5.4%;
-    margin-top: 3%;
-    font-size: clamp(3.5%, 3vw, 6vh);
-    text-align: justify;
-}
-
-.texto-sobre p{
-    margin-left: 5.4%;
-    margin-right: 5.4%;
-    margin-top: 4%;
-    font-size: clamp(8%, 3vw, 6vh);
-    text-align: justify;
-}
-
-.final img{
-    width: 40%;
-    transform: rotate(90deg);
-    margin-top: -5%;
-    margin-left: 30%;
+/* LOGO */
+.logo img{
+    width: 30%;
+    margin-left: 60%;
+    margin-top: 5%;
 }
 
 /* RODAPÉ */
 footer{
     background-color: #F9F2E7;
     background: linear-gradient(to top, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, white);
-    height: 690px;
+    height: 280vh
     width: 100%;
     margin-top: 5%;
 }
@@ -160,13 +153,13 @@ footer{
 }
 
 .container3{
-    margin-top: 80px;
+    margin-top: 5%;
     width: 120%;
 }
 
 .contact-info{
     display: flex;
-    margin-right: 20px;
+    margin-right: 5%;
     flex-direction: column;
     text-align: justify;
 }
@@ -176,7 +169,7 @@ footer{
 }
 
 .contact-info a{
-    margin-left: 10px;
+    margin-left: 4%;
     color: #7B2E0F;
     font-size: 2.5vh;
     text-decoration: none;
@@ -204,7 +197,7 @@ footer .boxs{
     color: #7B2E0F;
     text-align: justify;
     font-size: 3.8vh;
-    margin-top: 100px;
+    margin-top: 13%;
     width: 86%;
     font-family: "Urbanist", sans-serif;
 }
@@ -213,7 +206,7 @@ footer .boxs{
     list-style: none;
     cursor: pointer;
     color: #7B2E0F;
-    font-size: 20px;
+    font-size: clamp(3%, 2vw, 3vh);
     line-height: 1;
     text-decoration: none;
     font-family: "Urbanist", sans-serif;
@@ -222,9 +215,4 @@ footer .boxs{
 .container4{
     margin-left: 0;
     margin-right: 0;
-}
-
-.responsive-img {
-    max-width: 100%;
-    height: auto;
 }

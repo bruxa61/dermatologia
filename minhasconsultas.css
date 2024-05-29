@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: ; */
 }
 
 body{
@@ -10,8 +9,6 @@ body{
 }
 
 /* HEADER */
-
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -77,6 +74,7 @@ nav ul li a:hover{
 }
 
 
+/* CONTEUDO */
 h1{
     font-family: "Cormorant Garamond", serif;
     font-size: clamp(6%, 6vw, 10vh);
@@ -273,4 +271,9 @@ p{
     text-decoration: none;
     color: white;
     font-family: "Urbanist", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }

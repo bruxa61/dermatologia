@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #F9F2E7;
 }
 
 /* HEADER */
@@ -75,21 +76,24 @@ nav ul li a:hover{
 }
 
 /* CONTEUDO */
+.carteirinha img{
+    width: 54%;
+    border-radius: 2.5vh;
+    margin-top: -28%;
+    margin-left: 5%;
+}
+
 .card {
     width: 45%;
     height: 52vh;
     margin: 0% auto;
-    background-color: #fff; 
-    box-shadow: 0 0.5vh 3vh #c9c9c9;
-    border-radius: 2vh;
     font-family: "Urbanist", sans-serif;
-    margin-left: 5%;
-    margin-top: -28%;
+    margin-left: 9%;
+    margin-top: -30%;
 }
 
 .card-header {
-    background-color: #7B2E0F;
-    color: #fff;
+    color: #000;
     padding: 3vh;
     text-align: center;
     border-radius: 2vh 2vh 0 0;
@@ -104,46 +108,81 @@ nav ul li a:hover{
 .card-body {
     padding: 2vh;
     background-color: transparent;
+    margin-top: 2%;
 }
 
 .card-body p {
     margin: 0;
-    font-size: 3.6vh;
+    font-size: 3.3vh;
     background-color: transparent;
     text-align: justify;
     line-height: 6vh;
-    margin-left: 3%;
+    margin-left: 25%;
 }
 
 .card-body b{
     background-color: transparent;
-    color: #66250b;
+    color: #000;
 }
 
 .card-footer{
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 .card-footer a{
     font-family: "Urbanist", sans-serif;
     color: #4BBCEC;
-    margin-left: 40%;
+    margin-left: 45%;
     text-decoration: none;
     font-size: 3vh;
 }
 
 /* LOGO */
 .logo img{
-    width: 30%;
-    margin-left: 60%;
+    width: 25%;
+    margin-left: 67%;
+    margin-top: 7%;
+}
+
+/* BOTAO */
+.botao{
+    display: flex;
+    justify-content: space-around;
     margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.botao1 button{
+    background-color: #FFDEB0;
+    width: 180%;
+    height: 13vh;
+    border-radius: 4vh;
+    border: solid, transparent;
+    box-shadow: 0.2em 0.2em 0.4em #353535;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 3vh;
+    margin-left: -30%;
+    font-weight: bold;
+}
+
+.botao2 button{
+    background-color: #FFDEB0;
+    width: 180%;
+    height: 13vh;
+    border-radius: 4vh;
+    border: solid, transparent;
+    box-shadow: 0.2em 0.2em 0.4em #353535;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 3vh;
+    margin-left: -40%;
+    font-weight: bold;
 }
 
 /* RODAPÉ */
 footer{
     background-color: #F9F2E7;
     background: linear-gradient(to top, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, white);
-    height: 280vh
+    height: 690px;
     width: 100%;
     margin-top: 5%;
 }
@@ -153,13 +192,13 @@ footer{
 }
 
 .container3{
-    margin-top: 5%;
+    margin-top: 80px;
     width: 120%;
 }
 
 .contact-info{
     display: flex;
-    margin-right: 5%;
+    margin-right: 20px;
     flex-direction: column;
     text-align: justify;
 }
@@ -169,7 +208,7 @@ footer{
 }
 
 .contact-info a{
-    margin-left: 4%;
+    margin-left: 10px;
     color: #7B2E0F;
     font-size: 2.5vh;
     text-decoration: none;
@@ -197,7 +236,7 @@ footer .boxs{
     color: #7B2E0F;
     text-align: justify;
     font-size: 3.8vh;
-    margin-top: 13%;
+    margin-top: 100px;
     width: 86%;
     font-family: "Urbanist", sans-serif;
 }
@@ -206,7 +245,7 @@ footer .boxs{
     list-style: none;
     cursor: pointer;
     color: #7B2E0F;
-    font-size: clamp(3%, 2vw, 3vh);
+    font-size: 20px;
     line-height: 1;
     text-decoration: none;
     font-family: "Urbanist", sans-serif;
@@ -215,4 +254,9 @@ footer .boxs{
 .container4{
     margin-left: 0;
     margin-right: 0;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
 }

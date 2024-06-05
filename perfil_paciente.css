@@ -182,8 +182,8 @@ nav ul li a:hover{
 
 /* RODAPÉ */
 footer{
-    background-color: #F9F2E7;
-    background: linear-gradient(to top, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, white);
+    background-color: #ffffff;
+    /* background: linear-gradient(to top, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, white); */
     height: 690px;
     width: 100%;
     margin-top: 5%;
